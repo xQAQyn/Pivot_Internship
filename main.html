@@ -1,65 +1,101 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
   <head>
     <meta charset="utf-8">
-    <title>Formatting a biography</title>
-    <style>
-      body {
-        background-color: #fff;
-        color: #333;
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 1em;
-        margin: 0;
-      }
-
-      h1 {
-        color: hotpink;
-        font-size: 2em;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        border-bottom: 1px solid #375e97;
-      }
-
-      h2 {
-        font-style: italic;
-        font-size: 1.5em;
-      }
-
-      .job-title {
-        color: #999999;
-        font-weight: bold;
-      }
-
-      a:link,
-      a:visited {
-        color: #fb6542;
-      }
-
-      a:hover {
-        text-decoration: none;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>MyZhihu</title>
   </head>
 
   <body>
+    <header>
+      <div class="mainpagelogo">
+        <a href="main.html"><img src="images/zhihulogo.png" alt="logo"></a>
+      </div>
+      
+      <div class="切换栏">
+        <ul id="menu">
+          <a href="main.html" class="curpage"><li>首页</li></a>
+          <a href="vip.html"><li>会员</li></a>
+          <a href="discover.html"><li>发现</li></a>
+          <a href="answer.html"><li>等你来答</li></a>
+        </ul>
+      </div>
+      
+      <div class="搜索栏">
+        <blockquote>
+          <p id="搜索框">假装可以输入实际没有卵用的输入框</p>
+          <p id="搜索按钮">搜索</p>
+        </blockquote>
+      </div>
+      
+      <div class="个人功能区">
+        <img src="images/知乎_消息.png" alt="消息按钮">
+        <img src="images/私信.png" alt="私信">
+        <img src="images/pivot.jpg" alt="头像">
+      </div>
+      
+    </header>
 
-    <h1>Jane Doe</h1>
-    <div class="job-title">Web Developer</div>
-    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+    <nav>
+      <ul>
+        <a href="follow.html"><li>关注</li></a>
+        <a href="main.html" class="curpage"><li>推荐</li></a>
+        <a href="hot.html"><li>热榜</li></a>
+        <a href="zvideo.html"><li>视频</li></a>
+      </ul>
+    </nav>
+    
+    <main>
 
-    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-    </p>
+      <div class="article">
+        <a href="#"><h2 class="atitle">如何评价“青春才几年，疫情占三年”这句话</h2></a>
+        <p class="acontent">我不理解，一群19级到21级的本科生，一群18-20岁的年轻人，抱怨抱怨疫情导致封校，没有体验真正的大学生活，居然可以遭到大家如此的口诛笔伐？大学本该是图书馆、社团、课堂、恋爱，大学...阅读全文</p>
+      </div>
 
-    <h2>Contact information</h2>
-    <ul>
-      <li>Email:
-        <a href="mailto:jane@example.com">jane@example.com</a>
-      </li>
-      <li>Web:
-        <a href="http://example.com">http://example.com</a>
-      </li>
-      <li>Tel: 123 45678</li>
-    </ul>
+      <div class="article">
+        <a href="#"><h2 class="atitle">有哪些能玩上一天的网站？</h2></a>
+        <p class="acontent">1、烧脑小游戏网址：https://nazo.one-story.cn/我敢说，这是绝对能逼疯你的小游戏，第一关的通过率还不到60%，你能过关吗？2、反应测试网址：https://www.humanbenchmark.com/test...阅读全文</p>
+      </div>
+
+      <div class="article">
+        <a href="#"><h2 class="atitle">计算机领域有哪些经典的典故或笑话？</h2></a>
+        <p class="acontent">1、书法某程序员对书法十分感兴趣，退休后决定在这方面有所建树。于是花重金购买了上等的文房四宝。一日，饭后突生雅兴，一番磨墨拟纸，并点上了上好的...阅读全文</p>
+      </div>
+
+    </main>
+    
+    <aside>
+
+      <div class="功能区图标">
+        <a href="#">
+          <img src="images/回答问题.png" alt="回答问题">
+          <p>回答问题</p>
+        </a>
+      </div>
+
+      <div class="功能区图标">
+        <a href="#">
+          <img src="images/发视频.png" alt="发视频">
+          <p>发视频</p>
+        </a>
+      </div>
+
+      <div class="功能区图标">
+        <a href="#">
+          <img src="images/编辑文章.png" alt="编辑文章">
+          <p>写文章</p>
+        </a>
+      </div>
+
+      <div class="功能区图标">
+        <a href="#">
+          <img src="images/写想法.png" alt="写想法">
+          <p>写想法</p>
+        </a>
+      </div>
+
+    </aside>
 
   </body>
 
