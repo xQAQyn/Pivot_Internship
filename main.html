@@ -11,7 +11,7 @@
     <header>
 
       <a href="main.html" id="mainlogo"><img src="images/zhihulogo.png" alt="logo"></a>
-      
+
       <a href="main.html" class="menu" id="curpage"><span>首页</span></a>
       <a href="vip.html" class="menu">会员</a>
       <a href="discover.html" class="menu">发现</a>
@@ -19,80 +19,110 @@
       
 
       <div id="搜索框">
-        <p style="color:8790a4;">好像这是个搜索框</p>
+        <p style="color:8790a4;">一个搜索框</p>
         <img src="images/搜索.png" style="width: 10%;height: 50%;" id="搜索符" alt="搜索">
       </div>
-      <p id="搜索按钮">搜索</p>
+      <button name="提问按钮">提问</button>
 
       
-      <div class="个人功能区">
-        <img class="个人功能区" src="images/知乎_消息.png" alt="消息按钮">
-        <img class="个人功能区" src="images/私信.png" alt="私信">
-        <img class="个人功能区" src="images/pivot.jpg" alt="头像">
-      </div>
+      
+      <img class="个人功能区" src="images/知乎_消息.png" alt="消息按钮" width="10" height="10">
+      <img class="个人功能区" src="images/私信.png" alt="私信">
+      <img class="个人功能区" src="images/pivot.jpg" alt="头像">
+      
       
     </header>
-<!--
-    <nav>
-      <ul>
-        <a href="follow.html"><li>关注</li></a>
-        <a href="main.html" id="curpage"><li>推荐</li></a>
-        <a href="hot.html"><li>热榜</li></a>
-        <a href="zvideo.html"><li>视频</li></a>
-      </ul>
-    </nav>
+
+    <div id="whole">
+      <div id="主界面">
+
+        <nav>
+          <ul id="切换栏">
+            <a href="follow.html"><li>关注</li></a>
+            <a href="main.html" id="curpage"><li style="color: 2a64f6;">推荐</li></a>
+            <a href="hot.html"><li>热榜</li></a>
+            <a href="zvideo.html"><li>视频</li></a>
+          </ul>
+        </nav>
+        <hr>
+        <main>
+
+          <div class="article">
+            <a href="#"><h2 class="atitle">如何评价“青春才几年，疫情占三年”这句话</h2></a>
+            <p class="acontent">我不理解，一群19级到21级的本科生，一群18-20岁的年轻人，抱怨抱怨疫情导致封校，没有体验真正的大学生活，居然可以遭到大家如此的口诛笔伐？大学本该是图书馆、社团、课堂、恋爱，大学...阅读全文</p>
+            <div id="文章功能栏">
+              <button name="赞同">赞同▲</button>
+              <button name="反对">▼</button>
+              
+            </div>
+          </div>
+
+          <div class="article">
+            <a href="#"><h2 class="atitle">有哪些能玩上一天的网站？</h2></a>
+            <p class="acontent">1、烧脑小游戏网址：https://nazo.one-story.cn/我敢说，这是绝对能逼疯你的小游戏，第一关的通过率还不到60%，你能过关吗？2、反应测试网址：https://www.humanbenchmark.com/test...阅读全文</p>
+          </div>
+
+          <div class="article">
+            <a href="#"><h2 class="atitle">计算机领域有哪些经典的典故或笑话？</h2></a>
+            <p class="acontent">1、书法某程序员对书法十分感兴趣，退休后决定在这方面有所建树。于是花重金购买了上等的文房四宝。一日，饭后突生雅兴，一番磨墨拟纸，并点上了上好的...阅读全文</p>
+          </div>
+
+          <div class="article">
+            <a href="#"><h2 class="atitle">为什么有些人不喜欢承认错误？</h2></a>
+            <p class="acontent">在垃圾环境习得的防卫策略。在大部分圈子中，承认错误是一个信号，意味着允许别人来打压羞辱你。最典型的一个表现是，“指出别人说错”为什么要被刻毒地以“打脸”两个字形容呢？你细揣摩“打脸”这个词，大概就能理解“认错”和“羞辱”间牢固的关联关...阅读全文</p>
+          </div>
+
+          <div class="article">
+            <a href="#"><h2 class="atitle">如果智能机器人真的大批量取代人工，那真的会失业么？</h2></a>
+            <p class="acontent">先总结观点：1）从一个角度看：机器确实在取代人工，而且取代的速度越来越快。2）但从另一个角度观察这个事实，你会发现不一样的结论：不是机器抢了人的工作，而是人曾经抢了机器的工作，如今机器在抢回去。3）真正属于人的工作，机器从未抢走，未来也不...阅读全文</p>
+          </div>
+
+          <div class="article">
+            <a href="#"><h2 class="atitle">如何在一次核打击中生存下来？</h2></a>
+            <p class="acontent">原文来自Wikihow冷战结束了20多年，许多人也未处在核武器或者放射性武器的威胁下。但核打击仍然是很真实的威胁。世界政治格局还远远谈不上稳定。人类的天性在过去20年没有改变，“回荡在人类历史上最持久的声音就是擂擂的战...阅读全文</p>
+          </div>
+
+        </main>
+
+      </div>
+
+      <aside>
+        <div class="功能区">
+          <div class="功能区图标">
+            <a href="#">
+              <img src="images/回答问题.png" alt="写回答">
+              <p>写问题</p>
+            </a>
+          </div>
+
+          <div class="功能区图标">
+            <a href="#">
+              <img src="images/发视频.png" alt="发视频">
+              <p>发视频</p>
+            </a>
+          </div>
+
+          <div class="功能区图标">
+            <a href="#">
+              <img src="images/编辑文章.png" alt="编辑文章">
+              <p>写文章</p>
+            </a>
+          </div>
+
+          <div class="功能区图标">
+            <a href="#">
+              <img src="images/写想法.png" alt="写想法">
+              <p>写想法</p>
+            </a>
+          </div>
+        </div>
+        
+
+      </aside>
+    </div>
     
-    <main>
-
-      <div class="article">
-        <a href="#"><h2 class="atitle">如何评价“青春才几年，疫情占三年”这句话</h2></a>
-        <p class="acontent">我不理解，一群19级到21级的本科生，一群18-20岁的年轻人，抱怨抱怨疫情导致封校，没有体验真正的大学生活，居然可以遭到大家如此的口诛笔伐？大学本该是图书馆、社团、课堂、恋爱，大学...阅读全文</p>
-      </div>
-
-      <div class="article">
-        <a href="#"><h2 class="atitle">有哪些能玩上一天的网站？</h2></a>
-        <p class="acontent">1、烧脑小游戏网址：https://nazo.one-story.cn/我敢说，这是绝对能逼疯你的小游戏，第一关的通过率还不到60%，你能过关吗？2、反应测试网址：https://www.humanbenchmark.com/test...阅读全文</p>
-      </div>
-
-      <div class="article">
-        <a href="#"><h2 class="atitle">计算机领域有哪些经典的典故或笑话？</h2></a>
-        <p class="acontent">1、书法某程序员对书法十分感兴趣，退休后决定在这方面有所建树。于是花重金购买了上等的文房四宝。一日，饭后突生雅兴，一番磨墨拟纸，并点上了上好的...阅读全文</p>
-      </div>
-
-    </main>
     
-    <aside>
-
-      <div class="功能区图标">
-        <a href="#">
-          <img src="images/回答问题.png" alt="回答问题">
-          <p>回答问题</p>
-        </a>
-      </div>
-
-      <div class="功能区图标">
-        <a href="#">
-          <img src="images/发视频.png" alt="发视频">
-          <p>发视频</p>
-        </a>
-      </div>
-
-      <div class="功能区图标">
-        <a href="#">
-          <img src="images/编辑文章.png" alt="编辑文章">
-          <p>写文章</p>
-        </a>
-      </div>
-
-      <div class="功能区图标">
-        <a href="#">
-          <img src="images/写想法.png" alt="写想法">
-          <p>写想法</p>
-        </a>
-      </div>
-
-    </aside>
-  -->
+    
   </body>
 
 </html>

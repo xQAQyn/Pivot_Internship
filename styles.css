@@ -1,0 +1,143 @@
+body{
+    background-color: #f6f6f6;
+}
+
+header{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    height: 40px;
+}
+
+header>*{
+    line-height: 100%;
+    justify-content: center;
+    display: flex;
+    height: inherit;
+    min-width: 120px;
+    padding: 20px;
+}
+
+#mainlogo{
+    width: 10%;
+}
+
+.menu{
+    color: #b2b8c5;
+    padding-top: 30px;
+}
+
+#curpage span{
+    color: black;
+    border-bottom: 5px solid blue;
+}
+
+div[id="搜索框"]{
+    border-radius: 20px;
+    background-color: #f6f6f6;
+    color: 8790ac;
+    line-height: inherit;
+    align-items: center;
+    height: 80%;
+}
+
+div[id="搜索框"] p{
+    color: #8790a4;
+}
+
+button[name="提问按钮"]{
+    background-color: #265bde;
+    color: white;
+    border-radius: 50px;
+    line-height: 10%;
+}
+
+header img[class="个人功能区"]{
+    width: 1%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #285094;
+}
+
+ul li{
+    list-style: none;
+    float: left;
+    margin: 50px;
+}
+
+ul a[id="curpage"]{
+    color: #2a64f6;
+}
+
+#切换栏{
+    align-items: center;
+}
+
+#主界面{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+aside{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+#whole{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 250px;
+    padding-right: 350px;
+    padding-top: 50px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 100px;
+}
+
+.acontent:hover{
+    color: #646464;
+}
+
+main div{
+    flex:20px;
+}
+
+div[class="功能区图标"] img{
+    width: 30%;
+    padding-left: 25%;
+}
+
+#主界面{
+    background-color: white;
+    padding-right: 50px;
+}
+
+aside{
+    display: flex;
+    background-color: #ffffff;
+    padding-left: 20px;
+    border-left:20px solid #f6f6f6;
+    border-top: 130px solid #f6f6f6;
+    flex-direction: column;
+}
+
+.功能区{
+    display: flex;
+    flex-direction: row;
+}
+
