@@ -47,6 +47,20 @@ div[id="搜索框"] p{
     color: #8790a4;
 }
 
+button[class="文章功能"]{
+    margin: 15px;
+    height: 25px;
+    border: none;
+    background-color: white;
+    color: #788399;
+}
+
+button[name="赞同"],button[name="反对"]{
+    margin: 8px;
+    background-color: #e9effe;
+    color: #2a64f6;
+}
+
 button[name="提问按钮"]{
     background-color: #265bde;
     color: white;
