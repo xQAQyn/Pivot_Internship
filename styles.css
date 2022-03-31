@@ -55,10 +55,18 @@ button[class="文章功能"]{
     color: #788399;
 }
 
+button[class="文章功能"]:hover{
+    color: #788399;
+}
+
 button[name="赞同"],button[name="反对"]{
     margin: 8px;
     background-color: #e9effe;
     color: #2a64f6;
+}
+
+button[name="赞同"]:hover,button[name="反对"]:hover{
+    background-color: #dfe8fe;
 }
 
 button[name="提问按钮"]{
@@ -99,6 +107,7 @@ ul a[id="curpage"]{
     flex: 3;
     display: flex;
     flex-direction: column;
+    padding-bottom: 80%;
 }
 
 aside{
@@ -170,4 +179,26 @@ div[class="付费区图标"] img{
 .付费区1,.付费区2{
     display: flex;
     flex-direction: row;
+}
+
+.关注者{
+    display: flex;
+    align-items: center;
+    height: 20px;
+    color: #8790a4;
+}
+
+.关注者 img{
+    width: 20px;
+}
+
+button[name="关注问题"]{
+    margin: 8px;
+    background-color: white;
+    color: #2a64f6;
+    border: #2a64f6 solid 1px;
+}
+
+button[name="关注问题"]:hover{
+    background-color: #f2f6fe;
 }
