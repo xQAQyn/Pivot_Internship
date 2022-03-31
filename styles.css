@@ -20,6 +20,10 @@ header>*{
     padding: 20px;
 }
 
+header img[class="个人功能区"]{
+    width: 10%;
+}
+
 #mainlogo{
     width: 10%;
 }
@@ -114,6 +118,13 @@ aside{
     flex: 1;
     display: flex;
     align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 99%;
+    border-left:20px solid #f6f6f6;
+    padding-top: 130px;
+    flex-direction: column;
 }
 
 #whole{
@@ -151,16 +162,6 @@ div[class="功能区图标"] img{
     padding-right: 50px;
 }
 
-aside{
-    background-color: #ffffff;
-    display: flex;
-    padding-left: 20px;
-    padding-bottom: 80%;
-    border-left:20px solid #f6f6f6;
-    border-top: 130px solid #f6f6f6;
-    flex-direction: column;
-}
-
 .功能区,.功能区2{
     display: flex;
     flex-direction: row;
@@ -172,13 +173,22 @@ aside{
     color: #787b83;
 }
 
-div[class="付费区图标"] img{
-    width: 50%;
+.付费区1{
+    margin-top: 20px;
 }
 
 .付费区1,.付费区2{
     display: flex;
     flex-direction: row;
+}
+
+.付费区1 p,.付费区2 p{
+    padding-left: 20px;
+}
+
+.付费区1 img,.付费区2 img{
+    width: 40%;
+    padding-left: 20px;
 }
 
 .关注者{
@@ -201,4 +211,57 @@ button[name="关注问题"]{
 
 button[name="关注问题"]:hover{
     background-color: #f2f6fe;
+}
+
+.榜单元素{
+    display: flex;
+    vertical-align: top;
+}
+
+.榜单元素 p{
+    font-size: medium;
+    flex: 1;
+}
+
+.榜单元素 div{
+    flex: 18;
+}
+
+.榜单元素 div h2{
+    font-size: 18px;
+}
+
+.榜单元素 div p{
+    font-size: 14px;
+}
+
+.榜单元素 img{
+    padding-top: 3%;
+    width: 10%;
+    height: 75%;
+    flex: 8;
+}
+
+.热榜功能栏{
+    display: flex;
+}
+
+.热榜功能栏 button{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    height: 20px;
+    flex: 1 100px;
+    border: none;
+    background-color: white;
+    color: #788399;
+}
+
+.热榜功能栏 button img{
+    flex: 1;
+}
+
+.热榜功能栏 button p{
+    flex: 8;
+    text-align: left;
 }
